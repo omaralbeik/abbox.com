@@ -11,6 +11,7 @@ h1 {
 }
 ul {
   list-style: none;
+  padding-left: 0;
 }
 li {
   margin-left: 0;
@@ -32,26 +33,39 @@ li {
   height: 100%;
 }
 
+#nav a {
+  font-size: 1.3em;
+}
+
+#nav a:hover {
+  color: #ED5D39;
+}
+
+#nav .dropdown-menu li {
+  padding: 0;
+}
+#nav .dropdown-menu li a {
+  padding: 15px 40px 15px 40px;
+}
+
+
+
 /************* Slider *************/
 
 .slider-section {
   width: 100%;
   padding: 0;
-  height:600px;
+  height: 600px;
 }
-
 .slider-section .slider {
   width: 100%;
   padding: 0;
 }
-
 .slider-section .owl-carousel .owl-item {
-  height:600px;
-  width:100%;
+  height: 600px;
+  width: 100%;
   position: relative;
 }
-
-
 .owl-prev, .owl-next {
   margin: 0;
   display: inline-block;
@@ -59,21 +73,16 @@ li {
   top: -85px;
   color: #E0E0E0;
 }
-
 .owl-prev:hover, .owl-next:hover {
   color: black;
 }
-
 .owl-prev {
-  left: 50px;
+  left: 25px;
 }
-
 .owl-next {
-  right: 18px;
+  right: 25px;
 }
-
-
- .slider .owl-prev,  .slider .owl-next {
+.slider .owl-prev, .slider .owl-next {
   margin: 0;
   display: inline-block;
   position: absolute;
@@ -83,30 +92,31 @@ li {
 .slider .owl-prev:hover, .slider .owl-next:hover {
   color: #ED5D39;
 }
-
- .slider .owl-prev {
+.slider .owl-prev {
   left: 50px;
 }
-
- .slider .owl-next {
-  right: 38px;
+.slider .owl-next {
+  right: 50px;
+}
+.slider-container {
+  max-width: 96%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /************* Sections *************/
+
 .section {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
 .action-section {
   background-color: #ED5D39;
   color: white;
 }
-
 .workflow li {
   height: 170px;
 }
-
 .workflow h2 {
   font-size: 1.2em;
   font-weight: 200;

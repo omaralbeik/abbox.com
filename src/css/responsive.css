@@ -29,11 +29,31 @@
   .workflow h2 {
     font-size: 1.7em;
   }
+  .slider .owl-prev, .slider .owl-next {
+    top: 170px;
+  }
+  .navbar-collapse li{
+    text-align: center;
+  }
+  .navbar-collapse .dropdown-menu {
+    padding-top: 0;
+  }
+  .navbar-collapse .dropdown-menu li {
+    background-color: #FFF3E0;
+  }
+  #nav .navbar-collapse a, #nav .navbar-collapse .dropdown-menu li a {
+    font-size: 1.6em;
+    font-weight: 200;
+    padding: 20px;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
 
 @media(min-width:768px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
   .workflow li {
     height: 260px;
   }
@@ -51,11 +71,15 @@
 /* Medium devices (desktops, 992px and up) */
 
 @media(min-width:992px) {
-
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
 }
 
 /* Large devices (desktops, 1200px and up) */
 
 @media(min-width:1200px) {
-
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
 }
