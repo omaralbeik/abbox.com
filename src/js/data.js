@@ -1,0 +1,157 @@
+var data = {
+  sliders: [{
+    image_url: "img/slider/test1.jpg",
+    title: "",
+    subtitle: ""
+  }, {
+    image_url: "img/slider/test2.jpg",
+    title: "",
+    subtitle: ""
+  }],
+  message: "We are researchers, designers, & engineers working together to solve meaningful product design & development problems.",
+  attract: {
+    title: "Turn your ideas into real products.",
+    message: "some text",
+  },
+  workflow: {
+    subtitle: "By following a quality driven development process we help you deliver your next great idea.<br/>We are working like architects, and we are truly inspired by the greatest of them.",
+    items: [{
+      title: "We meet and discuss idea",
+      icon_url: "img/workflow/meet.png"
+    }, {
+      title: "Reasearch and brainstorm",
+      icon_url: "img/workflow/search.png"
+    }, {
+      title: "Designing & Modeling",
+      icon_url: "img/workflow/design.png"
+    }, {
+      title: "Prototyping & engineering",
+      icon_url: "img/workflow/engineer.png"
+    }, {
+      title: "Testing & surface finishing",
+      icon_url: "img/workflow/check.png"
+    }, {
+      title: "Calebrating Success",
+      icon_url: "img/workflow/finish.png"
+    }]
+  },
+  projects: [{
+    name: "",
+    date: "",
+    description: "",
+    main_image_url: "",
+    images: []
+  }, {
+    name: "",
+    date: "",
+    description: "",
+    main_image_url: "",
+    images: []
+  }, {
+    name: "",
+    date: "",
+    description: "",
+    main_image_url: "",
+    images: []
+  }],
+  customers: [{
+    name: "Eksper ltd.",
+    logo_url: "img/customers/eksper.jpg",
+    website: "http://www.eksperltd.com/"
+  }, {
+    name: "3D Maker Tech",
+    logo_url: "img/customers/3dmarket.jpg",
+    website: "http://www.3dmakertech.com/"
+  }, {
+    name: "3Durak",
+    logo_url: "img/customers/3durak.jpg",
+    website: "http://www.3durak.com/"
+  }, {
+    name: "Deriva labs",
+    logo_url: "img/customers/derivalabs.jpg",
+    website: "http://www.derivalabs.com/"
+  }, {
+    name: "aba eğitim",
+    logo_url: "img/customers/aba.jpg",
+    website: "http://www.abaegitim.com/"
+  }, {
+    name: "SparkGO",
+    logo_url: "img/customers/sparkgo.jpg",
+    website: "http://www.sparkgo.net"
+  }, {
+    name: "Okto People",
+    logo_url: "img/customers/oktopeople.jpg",
+    website: "http://www.oktopeople.com/"
+  }, {
+    name: "BRISA",
+    logo_url: "img/customers/brisa.jpg",
+    website: "http://www.brisa.com.tr/"
+  }, {
+    name: "Bahçeşehir Üniversitesi",
+    logo_url: "img/customers/bau.jpg",
+    website: "http://www.bahcesehir.edu.tr/"
+  }],
+
+  partners: [{
+    name: "Bahçeşehir Üniversitesi",
+    logo_url: "img/partners/bau.jpg",
+    website: ""
+  }, {
+    name: "TEDx Bahçeşehir",
+    logo_url: "img/partners/tedxbau.jpg",
+    website: ""
+  }, {
+    name: "3Durak",
+    logo_url: "img/partners/3durak.jpg",
+    website: ""
+  }, {
+    name: "3D Maker Tech",
+    logo_url: "img/partners/3dmarket.jpg",
+    website: ""
+  }, {
+    name: "SparkGO",
+    logo_url: "img/partners/sparkgo.jpg",
+    website: ""
+  }, {
+    name: "CO-OP",
+    logo_url: "img/partners/coop.jpg",
+    website: ""
+  }],
+  team: [{
+    name: "Kamran Elchuzade",
+    role: "I started the entire thing!",
+    image_url: "img/team/kamran.jpg",
+    social: {
+      linkedin: "",
+      twitter: "",
+      facebook: ""
+    }
+  }, {
+    name: "Erkin Şahin",
+    role: "Hardware Genius!",
+    image_url: "img/team/erkin.jpg",
+    social: {
+      linkedin: "",
+      twitter: "",
+      facebook: ""
+    }
+  }, {
+    name: "Mert Akengin",
+    role: "Intel inside! running linux",
+    image_url: "img/team/mert.jpg",
+    social: {
+      linkedin: "",
+      twitter: "",
+      facebook: ""
+    }
+  }, {
+    name: "Omar Albeik",
+    role: "I turn coffee into code ;)",
+    image_url: "img/team/omar.jpg",
+    social: {
+      linkedin: "",
+      twitter: "",
+      facebook: ""
+    }
+  }]
+};

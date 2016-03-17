@@ -1,0 +1,39 @@
+/* Extra small devices (phones, less than 768px) */
+
+@media(max-width:767px) {
+  #nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    border: 0;
+  }
+  .navbar-brand img {
+    min-height: 100%;
+  }
+
+  .slider-section {
+    height:400px;
+  }
+
+  .owl-carousel .owl-item {
+    height:400px;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+
+@media(min-width:768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+
+@media(min-width:992px) {
+
+}
+
+/* Large devices (desktops, 1200px and up) */
+
+@media(min-width:1200px) {
+
+}
