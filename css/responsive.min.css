@@ -1,2 +1,2 @@
-@media(max-width:767px){#nav{padding-top:20px;padding-bottom:20px;background-color:#fff;border:0}.navbar-brand img{min-height:100%}.owl-carousel .owl-item,.slider-section{height:400px}}
+@media(max-width:767px){#nav{padding-top:20px;padding-bottom:20px;background-color:#fff;border:0}.navbar-brand img{min-height:100%}.slider-section,.slider-section .owl-carousel .owl-item{height:400px}.workflow li{height:250px}.workflow img{width:150px;margin-left:auto;margin-right:auto}.workflow h2{font-size:1.7em}}@media(min-width:768px){.workflow li{height:260px}.workflow img{width:140px;margin-left:auto;margin-right:auto}.workflow h2{font-size:1.5em}}
 /*# sourceMappingURL=responsive.css.map */
