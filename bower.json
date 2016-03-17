@@ -19,6 +19,7 @@
     "ajax": "^0.0.15",
     "animate.css": "^3.5.1",
     "bootstrap": "^3.3.6",
+    "hover": "Hover#^2.0.2",
     "normalize-css": "normalize.css#^3.0.3",
     "owl.carousel": "OwlCarousel2#^2.0.0-beta.3"
   }

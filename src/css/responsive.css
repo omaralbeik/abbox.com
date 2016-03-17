@@ -15,14 +15,36 @@
     height:400px;
   }
 
-  .owl-carousel .owl-item {
+  .slider-section .owl-carousel .owl-item {
     height:400px;
+  }
+  .workflow li {
+    height: 250px;
+  }
+  .workflow img {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .workflow h2 {
+    font-size: 1.7em;
   }
 }
 
 /* Small devices (tablets, 768px and up) */
 
 @media(min-width:768px) {
+  .workflow li {
+    height: 260px;
+  }
+  .workflow img {
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .workflow h2 {
+    font-size: 1.5em;
+  }
 
 }
 

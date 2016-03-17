@@ -35,7 +35,7 @@ li {
 /************* Slider *************/
 
 .slider-section {
-  width: 104%;
+  width: 100%;
   padding: 0;
   height:600px;
 }
@@ -52,6 +52,40 @@ li {
 }
 
 
+.owl-prev, .owl-next {
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+  top: -85px;
+  color: #E0E0E0;
+
+}
+
+.owl-prev {
+  left: 50px;
+}
+
+.owl-next {
+  right: 18px;
+}
+
+
+ .slider .owl-prev,  .slider .owl-next {
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+  top: 250px;
+  color: white;
+
+}
+
+ .slider .owl-prev {
+  left: 50px;
+}
+
+ .slider .owl-next {
+  right: 38px;
+}
 
 /************* Sections *************/
 .section {
@@ -62,6 +96,10 @@ li {
 .action-section {
   background-color: #ED5D39;
   color: white;
+}
+
+.workflow li {
+  height: 170px;
 }
 
 .workflow h2 {
