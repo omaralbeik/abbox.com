@@ -58,7 +58,10 @@ li {
   position: absolute;
   top: -85px;
   color: #E0E0E0;
+}
 
+.owl-prev:hover, .owl-next:hover {
+  color: black;
 }
 
 .owl-prev {
@@ -76,7 +79,9 @@ li {
   position: absolute;
   top: 250px;
   color: white;
-
+}
+.slider .owl-prev:hover, .slider .owl-next:hover {
+  color: #ED5D39;
 }
 
  .slider .owl-prev {
