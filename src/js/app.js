@@ -4,7 +4,7 @@ $('.action-section p').html(data.attract.message);
 
 $.each(data.sliders, function(index, slide) {
 
-  var li = '<li class="owl-item" style="background-image: url(../%url%);background-position: center;background-repeat: no-repeat;background-size: cover;"></li>';
+  var li = '<li class="owl-item" style="background-image: url(%url%);background-position: center;background-repeat: no-repeat;background-size: cover;"></li>';
   var item = $(li.replace('%url%', slide.image_url));
   $('.slider').append(item);
 });
