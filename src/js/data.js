@@ -1,13 +1,26 @@
 var data = {
-  sliders: [{
+  sliders: [
+    {
     image_url: "img/slider/test1.jpg",
     title: "",
     subtitle: ""
-  }, {
+  },
+  {
     image_url: "img/slider/test2.jpg",
     title: "",
     subtitle: ""
-  }],
+  },
+  {
+    image_url: "img/slider/test3.jpg",
+    title: "",
+    subtitle: ""
+  },
+  {
+    image_url: "img/slider/test4.jpg",
+    title: "",
+    subtitle: ""
+  }
+],
   message: "We are researchers, designers, & engineers working together to solve meaningful product design & development problems.",
   attract: {
     title: "Turn your ideas into real products.",
