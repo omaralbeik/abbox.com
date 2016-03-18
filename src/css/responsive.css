@@ -46,6 +46,18 @@
     font-weight: 200;
     padding: 20px;
   }
+  .slider .owl-prev {
+    left: 10px;
+  }
+  .slider .owl-next {
+    right: 10px;
+  }
+  .slider .owl-prev i, .slider .owl-next i {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .slider .owl-prev:hover > i, .slider .owl-next:hover > i {
+    color: rgba(223, 63, 0, 0.7);
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
