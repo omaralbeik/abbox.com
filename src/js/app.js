@@ -30,7 +30,7 @@ $.each(data.workflow.items, function(index, item) {
 $.each(data.customers, function(index, customer) {
   var item = $('<li class="item">');
   var img = $('<img class="img-responsive hvr-grow" src="' + customer.logo_url + '" alt="' + customer.name + '" />');
-  var name = $('<h4>' + customer.name + '</h4>');
+  var name = $('<a href="' + customer.website + '" target="_blank"><h4>' + customer.name + '</h4></a>');
   item.append(img);
   item.append(name);
   $('.customers').append(item);
@@ -39,7 +39,8 @@ $.each(data.customers, function(index, customer) {
 $.each(data.partners, function(index, partner) {
   var item = $('<li class="item">');
   var img = $('<img class="img-responsive hvr-grow" src="' + partner.logo_url + '" alt="' + partner.name + '" />');
-  var name = $('<h4>' + partner.name + '</h4>');
+  var name = $('<a href="' + partner.website + '" target="_blank"><h4>' + partner.name + '</h4></a>');
+
   item.append(img);
   item.append(name);
   $('.partners').append(item);
@@ -91,6 +92,7 @@ jQuery(function($) {
     $('.customers-section .owl-carousel').owlCarousel({
       loop: true,
       margin: 10,
+      autoplayHoverPause: true,
       nav: true,
       navText: [
         '<i class="fa fa-angle-left fa-4x"></i>',
@@ -121,6 +123,7 @@ jQuery(function($) {
         '<i class="fa fa-angle-right fa-4x"></i>'
       ],
       dots: true,
+      autoplayHoverPause: true,
       autoplay: true,
       navigation: true,
       responsive: {
@@ -138,6 +141,7 @@ jQuery(function($) {
 
     $('.team-section .owl-carousel').owlCarousel({
       margin: 10,
+      autoplayHoverPause: true,
       nav: true,
       navText: [
         '<i class="fa fa-angle-left fa-4x"></i>',

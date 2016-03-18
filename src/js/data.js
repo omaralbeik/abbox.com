@@ -95,27 +95,27 @@ var data = {
   partners: [{
     name: "Bahçeşehir Üniversitesi",
     logo_url: "img/partners/bau.jpg",
-    website: ""
+    website: "http://www.bahcesehir.edu.tr/"
   }, {
     name: "TEDx Bahçeşehir",
     logo_url: "img/partners/tedxbau.jpg",
-    website: ""
+    website: "http://tedxbahcesehir.com/"
   }, {
     name: "3Durak",
     logo_url: "img/partners/3durak.jpg",
-    website: ""
+    website: "http://www.3durak.com/"
   }, {
     name: "3D Maker Tech",
     logo_url: "img/partners/3dmarket.jpg",
-    website: ""
+    website: "http://www.3dmakertech.com/"
   }, {
     name: "SparkGO",
     logo_url: "img/partners/sparkgo.jpg",
-    website: ""
+    website: "http://www.sparkgo.net"
   }, {
     name: "CO-OP",
     logo_url: "img/partners/coop.jpg",
-    website: ""
+    website: "http://coop.bahcesehir.edu.tr/"
   }],
   team: [{
     name: "Kamran Elchuzade",

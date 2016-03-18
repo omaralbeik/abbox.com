@@ -16,6 +16,10 @@ ul {
 li {
   margin-left: 0;
 }
+a:hover {
+  color: #ED5D39;
+  text-decoration: none;
+}
 
 /************* Navbar *************/
 
