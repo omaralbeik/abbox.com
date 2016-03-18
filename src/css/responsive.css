@@ -7,6 +7,11 @@
     background-color: white;
     border: 0;
   }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
   .navbar-brand img {
     min-height: 100%;
   }
@@ -32,6 +37,12 @@
   .slider .owl-prev, .slider .owl-next {
     top: 170px;
   }
+  .section .owl-prev, .section .owl-next {
+    display: none;
+  }
+  .customers-section .subtitle {
+    font-size: 1em;
+  }
   .navbar-collapse li{
     text-align: center;
   }
@@ -47,10 +58,10 @@
     padding: 20px;
   }
   .slider .owl-prev {
-    left: 10px;
+    left: 5px;
   }
   .slider .owl-next {
-    right: 10px;
+    right: 5px;
   }
   .slider .owl-prev i, .slider .owl-next i {
     color: rgba(255, 255, 255, 0.5);
@@ -58,6 +69,44 @@
   .slider .owl-prev:hover > i, .slider .owl-next:hover > i {
     color: rgba(223, 63, 0, 0.7);
   }
+
+  .welcome-section {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .welcome-section h1 {
+    font-size: 1.8em;
+  }
+
+  .action-section {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .action-section h1 {
+    font-size: 1.8em;
+  }
+
+  .action-section p {
+    font-weight: 200;
+  }
+
+  .workflow-section {
+    padding-top: 30px;
+  }
+  .projects-section {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .customers-section {
+    padding-bottom: 0;
+  }
+  .partners-section {
+    padding-bottom: 0;
+  }
+
+
 }
 
 /* Small devices (tablets, 768px and up) */

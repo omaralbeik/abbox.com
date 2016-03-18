@@ -52,7 +52,10 @@ a:hover {
   padding: 15px 40px 15px 40px;
 }
 
-
+.shrink {
+  max-height: 25px;
+  padding-top: 5px;
+}
 
 /************* Slider *************/
 
@@ -74,7 +77,7 @@ a:hover {
   margin: 0;
   display: inline-block;
   position: absolute;
-  top: -85px;
+  top: -115px;
   color: #E0E0E0;
 }
 .owl-prev:hover, .owl-next:hover {
@@ -129,4 +132,20 @@ a:hover {
   width: 100px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.workflow-section {
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+.welcome-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.subtitle {
+  color: gray;
+  padding-left: 18px;
+  padding-right: 18px;
 }

@@ -1,6 +1,46 @@
 $('.welcome-section h1').html(data.message);
 $('.action-section h1').html(data.attract.title);
 $('.action-section p').html(data.attract.message);
+$('.workflow-section .subtitle').html(data.workflow.message);
+$('.customers-section .subtitle').html(data.customers.message);
+$('.partners-section .subtitle').html(data.partners.message);
+$('.team-section .subtitle').html(data.team.message);
+
+$('#navbar li').click(function(event) {
+  if (!$(this).hasClass('dropdown')) {
+    if ($('.navbar-collapse').hasClass("in")) {
+      $('.navbar-toggle').click();
+    }
+  }
+
+});
+
+// shrink navbar when scrolling
+// $(window).scroll(function() {
+//   if ($(document).scrollTop() > 50) {
+//     $('nav').addClass('shrink');
+//   } else {
+//     $('nav').removeClass('shrink');
+//   }
+// });
+
+$("#projects-button").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".projects-section").offset().top - $('#navbar').height()
+    }, 600);
+});
+
+$("#workflow-button").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".workflow-section").offset().top - $('#navbar').height()
+    }, 600);
+});
+
+$("#contact-button").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".contact-section").offset().top - $('#navbar').height()
+    }, 600);
+});
 
 $.each(data.sliders, function(index, slide) {
 
@@ -27,7 +67,16 @@ $.each(data.workflow.items, function(index, item) {
   $('.workflow').append(col);
 });
 
-$.each(data.customers, function(index, customer) {
+$.each(data.projects, function(index, projects) {
+  var item = $('<li class="item">');
+  var img = $('<img class="img-responsive" src="' + projects.main_image_url + '" alt="' + projects.name + '" />');
+  var name = $('<a href="#" target="_blank"><h4>' + projects.name + '</h4></a>');
+  item.append(img);
+  item.append(name);
+  $('.projects').append(item);
+});
+
+$.each(data.customers.list, function(index, customer) {
   var item = $('<li class="item">');
   var img = $('<img class="img-responsive hvr-grow" src="' + customer.logo_url + '" alt="' + customer.name + '" />');
   var name = $('<a href="' + customer.website + '" target="_blank"><h4>' + customer.name + '</h4></a>');
@@ -36,7 +85,7 @@ $.each(data.customers, function(index, customer) {
   $('.customers').append(item);
 });
 
-$.each(data.partners, function(index, partner) {
+$.each(data.partners.list, function(index, partner) {
   var item = $('<li class="item">');
   var img = $('<img class="img-responsive hvr-grow" src="' + partner.logo_url + '" alt="' + partner.name + '" />');
   var name = $('<a href="' + partner.website + '" target="_blank"><h4>' + partner.name + '</h4></a>');
@@ -46,7 +95,7 @@ $.each(data.partners, function(index, partner) {
   $('.partners').append(item);
 });
 
-$.each(data.team, function(index, member) {
+$.each(data.team.list, function(index, member) {
 
   var li = $('<li class="item">');
   var img = $('<img class="img-responsive" src="' + member.image_url + '" alt="' + member.name + '" />');
@@ -85,6 +134,31 @@ jQuery(function($) {
         },
         1000: {
           items: 1
+        }
+      }
+    });
+
+    $('.projects-section .owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      autoplayHoverPause: true,
+      nav: true,
+      navText: [
+        '<i class="fa fa-angle-left fa-4x"></i>',
+        '<i class="fa fa-angle-right fa-4x"></i>'
+      ],
+      dots: true,
+      autoplay: true,
+      navigation: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
         }
       }
     });
@@ -134,7 +208,7 @@ jQuery(function($) {
           items: 4
         },
         1000: {
-          items: 6
+          items: 5
         }
       }
     });
