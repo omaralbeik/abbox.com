@@ -114,10 +114,6 @@ var data = {
     logo_url: "img/partners/tedxbau.jpg",
     website: "http://tedxbahcesehir.com/"
   }, {
-    name: "3Durak",
-    logo_url: "img/partners/3durak.jpg",
-    website: "http://www.3durak.com/"
-  }, {
     name: "3D Maker Tech",
     logo_url: "img/partners/3dmarket.jpg",
     website: "http://www.3dmakertech.com/"
