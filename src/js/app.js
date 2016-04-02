@@ -5,6 +5,12 @@ $('.workflow-section .subtitle').html(data.workflow.message);
 $('.customers-section .subtitle').html(data.customers.message);
 $('.partners-section .subtitle').html(data.partners.message);
 $('.team-section .subtitle').html(data.team.message);
+$('.contact-section h1').html(data.contact.title);
+
+$.each(data.contact.msgs, function(index, item) {
+	var p = $("<p>"); p.append(this);
+	$('.contact-section .container').append(p);
+});
 
 $('#navbar li').click(function(event) {
   if (!$(this).hasClass('dropdown')) {

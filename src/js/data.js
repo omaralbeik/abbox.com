@@ -19,7 +19,7 @@ var data = {
   message: "We are researchers, designers, & engineers working together to solve meaningful product design & development problems.",
   attract: {
     title: "Turn your ideas into real products.",
-    message: "some text",
+    message: "",
   },
   workflow: {
     message: "By following a quality driven development process we help you deliver your next great idea.<br/>We are working like architects, and we are truly inspired by the greatest of them.",
@@ -178,5 +178,15 @@ var data = {
         facebook: ""
       }
     }]
-  }
+  },
+  contact: {
+    title: "Contact Us",
+    msgs: [
+		"Bahcesehir University, Incubation Center",
+		"info@abbox.com",
+		"Ciragan Cad. Osmanpasa Mektebi Sok. Besiktas/Istanbul",
+		"",
+		"Feel free to message us about your ideas!",
+	],
+  },
 };
