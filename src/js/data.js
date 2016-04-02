@@ -179,7 +179,7 @@ var data = {
       }
     }, {
       name: "Baburkhan Kapanov",
-      role: "3D designer",
+      role: "3D Designer",
       image_url: "img/team/babur.jpg",
       social: {
         linkedin: "",
