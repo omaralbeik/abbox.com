@@ -177,7 +177,17 @@ var data = {
         twitter: "",
         facebook: ""
       }
-    }]
+    }, {
+      name: "Baburkhan Kapanov",
+      role: "3D designer",
+      image_url: "img/team/babur.jpg",
+      social: {
+        linkedin: "",
+        twitter: "",
+        facebook: ""
+      }
+    },
+    ],
   },
   contact: {
     title: "Contact Us",
