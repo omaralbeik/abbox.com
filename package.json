@@ -1,7 +1,7 @@
 {
-  "name": "library-finder",
-  "version": "1.0.0",
-  "description": "an app to find libraries arround you!",
+  "name": "abbox.com",
+  "version": "0.1.0",
+  "description": "website for a friend",
   "main": "index.js",
   "scripts": {},
   "author": "Omar Albeik",
